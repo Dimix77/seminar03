@@ -1,11 +1,17 @@
 ﻿{
-    
-    int number1 = 5;
-    int number2 = 7;
+    int a = 5;
+    int b = 7;
+    int max = 7;
 
-     if (5 < 7)
-     {
-        Console.WriteLine("Max 7 Min 5");
-     }
+    if (a > max) max = a;
+    if (b > max) max = b;
 
-    }
+ Console.WriteLine( "Max = 7" );
+ Console.WriteLine("Min = 5");
+
+ }
+
+
+
+
+
