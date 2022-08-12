@@ -1,13 +1,18 @@
 ﻿{
-    int a = 5;
-    int b = 7;
-    int max = 7;
+    int numberA = Convert.ToInt32(Console.ReadLine());
+    int numberB= Convert.ToInt32(Console.ReadLine());
+    int max = Convert.ToInt32(Console.ReadLine());
+    
 
-    if (a > max) max = a;
-    if (b > max) max = b;
+if (numberA < numberB)
+{
+    Console.WriteLine(numberB);
+}
+if (numberA > numberB)
+{
+    Console.WriteLine(numberA);
+}
 
- Console.WriteLine( "Max = 7" );
- Console.WriteLine("Min = 5");
 
  }
 
